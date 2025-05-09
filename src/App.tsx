@@ -33,7 +33,7 @@ const router = createBrowserRouter(
                         element={<NewRelation />}
                     ></Route>
                     <Route
-                        path="/relations/:id/note/:title"
+                        path="/relations/:id/note/:noteId"
                         element={<RelationDetails />}
                     ></Route>
                     <Route path="/relations/:id" element={<NoteList />}></Route>
